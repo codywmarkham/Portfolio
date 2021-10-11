@@ -3,7 +3,7 @@ export const projects = [
       title: "Api-Quiz",
       subtitle: "Javascript,HTML,CSS",
       description:
-        "A simple WEB API Quiz to test your understanding of WEB API.",
+        "WEB API Quiz to test your understanding of WEB API.",
       image: "./apiquiz.PNG",
       link: "https://codywmarkham.github.io/Api-Quiz/",
     },
@@ -11,7 +11,7 @@ export const projects = [
       title: "Budget App",
       subtitle: "Javascript,HTML,CSS",
       description:
-        "When you need to budget on the go this app will help you do it. Be it online of offline.",
+        "When you need to budget on the go.",
       image: "./budget.PNG",
       link: "https://cody-budget-app.herokuapp.com/",
     },
@@ -19,7 +19,7 @@ export const projects = [
       title: "Work-Out-Tracker",
       subtitle: "Javascript,CSS,HTML",
       description:
-        "When you need an app to track your workouts for the day or week use this easy to use Work Out Tracker!",
+        "When you need an app to track your workouts.",
       image: "./workout.PNG",
       link: "https://cody-work-out-tracker.herokuapp.com/",
     },
