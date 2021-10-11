@@ -19,6 +19,9 @@ export default function Footer() {
                     <div className="text-center ">
                     <a href="https://docs.google.com/document/d/1cF34QzEL1ImgH4MkC0fnPZBj46QmaytpnAqq3PuTQSs/edit?usp=sharing" target="_blank" rel="noopenner noreferrer">Resume</a>
                     </div>
+                    <div className="text-center ">
+                    <a href="https://www.youtube.com/channel/UC3qFej-7o3aizmLKwxjiHlg" target="_blank" rel="noopenner noreferrer">Tech Channel</a>
+                    </div>
                 </section>
         </footer>
     )
