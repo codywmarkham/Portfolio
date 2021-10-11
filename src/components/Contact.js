@@ -27,9 +27,9 @@ export default function Contact() {
 
 
     return (
-    <section id="contact" className="relative pt-80">
-       <div className="flex flex-col w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
+    <section id="contact" className="relative mt-40 pb-20">
+       <div className="flex flex-col w-full">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white text-center">
             Contact Information
           </h1>
         </div>

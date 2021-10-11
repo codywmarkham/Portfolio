@@ -18,7 +18,7 @@ export default function Projects() {
             Click Images to be routed to the site location.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 pb-40">
           {projects.map((project) => (
             <a
               href={project.link}
