@@ -3,7 +3,6 @@ import React from "react";
 import { projects } from "../data";
 
 
-
 export default function Projects() {
     return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -13,8 +12,10 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Project List
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Applications that I help build or completed myself.
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base break-normal">
+            Applications that I help build or completed myself. <br></br>
+            Hover Images for more Information.<br></br>
+            Click Images to be routed to the site location.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

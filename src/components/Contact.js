@@ -25,8 +25,14 @@ export default function Contact() {
         .catch((error) => alert(error));
     }
 
+
     return (
-    <section id="contact" className="relative">
+    <section id="contact" className="relative pt-80">
+       <div className="flex flex-col w-full mb-20">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
+            Contact Information
+          </h1>
+        </div>
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
@@ -40,6 +46,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Houston+Texas&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
+         
           <div className="bg-gray-900 relative flex flex-wrap py-6 px-10 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
@@ -71,7 +78,7 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Contact Me Here
+            Direct Message
           </h2>
           <p className="leading-relaxed mb-5">
             If you need to leave me a message please contact me here and I will get back to you ASAP.
@@ -119,6 +126,7 @@ export default function Contact() {
             Submit
           </button>
         </form>
+
       </div>
     </section>
   );}
