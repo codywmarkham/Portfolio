@@ -44,7 +44,7 @@ export const projects = [
         subtitle: "HTML,Javascript,CSS",
         description:
           "A way to check the weather in a city of your choice!",
-        image: "./project-4.gif",
-        link: "https://pythonbootcamp.com",
+        image: "./weather.PNG",
+        link: "https://codywmarkham.github.io/Weather-Board/",
       },
   ];
