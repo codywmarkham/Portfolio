@@ -5,7 +5,7 @@ export default function Footer() {
 
         <footer>
             <section id="footer" className="container mx-auto ">
-            <div className="flex flex-col w-full mb-1">
+            <div className="flex flex-col w-full mb-0">
                 <h1 className="sm:text-4xl text-3xl font-medium title-font text-white text-center">
                 Links
                 </h1>
