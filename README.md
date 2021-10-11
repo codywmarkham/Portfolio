@@ -4,7 +4,7 @@
 ## Running Site
 The following picture shows the appearance:
 
-[![Explantion Image](https://github.com/codywmarkham/Portfolio/blob/main/public/front.PNG)]
+![Explantion Image](https://github.com/codywmarkham/Portfolio/blob/main/public/front.PNG)
 
 ## Usage
 You can access the app here: [https://codymarkham.netlify.app/](https://codymarkham.netlify.app/).
